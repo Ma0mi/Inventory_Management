@@ -1,0 +1,75 @@
+/* สไตล์สำหรับตารางแสดงรายการสั่งซื้อ */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* สไตล์สำหรับหัวตาราง */
+th {
+    background-color: #f2f2f2;
+}
+
+/* สไตล์สำหรับแถวแนวนอนที่เป็นคู่ */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* สไตล์สำหรับแถวแนวนอนที่เป็นคี่ */
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* สไตล์สำหรับข้อความหัวข้อ */
+h1 {
+    text-align: center;
+}
+
+/* สไตล์สำหรับข้อความรายการสั่งซื้อ */
+h2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* สไตล์สำหรับราคารวมทั้งหมด */
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* สไตล์สำหรับข้อความข้อผิดพลาด */
+.error {
+    color: red;
+}
+
+/* สไตล์สำหรับข้อความข้อความเรียบร้อย */
+.success {
+    color: green;
+}
+
+/* สร้างสไตล์สำหรับลิงค์ที่เป็นกล่องสีเขียว */
+.green-button {
+    display: inline-block;
+    padding: 10px 20px; /* ปรับขนาดและระยะห่างตามที่คุณต้องการ */
+    background-color: #4CAF50; /* สีเขียว */
+    color: white; /* สีข้อความ */
+    text-decoration: none; /* เอาเส้นใต้งออก */
+    border: none;
+    border-radius: 5px; /* สัดส่วนของมุมกล่อง */
+    cursor: pointer; /* เปลี่ยนรูปเเบบเม้าส์เป็นตัวจากา */
+}
+
+/* สไตล์เมื่อเม้าส์ไปชี้ที่ลิงค์ */
+.green-button:hover {
+    background-color: #45a049; /* สีเขียวเข้มเมื่อชี้ */
+}

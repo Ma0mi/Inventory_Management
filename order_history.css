@@ -1,0 +1,100 @@
+/* สไตล์สำหรับหัวข้อใหญ่ */
+h1 {
+    color: #333; /* สีข้อความ */
+    font-size: 24px; /* ขนาดตัวอักษร */
+    text-align: center; /* จัดกึ่งกลาง */
+}
+
+/* สไตล์สำหรับตาราง */
+table {
+    width: 100%; /* ความกว้างของตาราง */
+    border-collapse: collapse; /* รวมเส้นขอบ */
+    margin: 20px 0; /* ระยะห่างด้านบนและด้านล่างของตาราง */
+}
+
+/* สไตล์สำหรับแถวคู่ขาดของตาราง */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* สีพื้นหลัง */
+}
+
+/* สไตล์สำหรับหัวคอลัมน์ */
+th {
+    background-color: #333; /* สีพื้นหลัง */
+    color: #fff; /* สีข้อความ */
+    font-weight: bold; /* ตัวหนา */
+    text-align: left; /* จัดชิดซ้าย */
+}
+
+/* สไตล์สำหรับเซลล์ของตาราง */
+td {
+    padding: 8px; /* ระยะห่างขอบของเซลล์ */
+    text-align: left; /* จัดชิดซ้าย */
+}
+
+/* สไตล์สำหรับลิงก์ */
+a {
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ข้อความลิงก์ */
+    color: #0077cc; /* สีข้อความลิงก์ */
+}
+
+/* สไตล์สำหรับปุ่ม PDF */
+a.pdf-button {
+    background-color: #0077cc; /* สีพื้นหลัง */
+    color: #fff; /* สีข้อความ */
+    padding: 8px 16px; /* ขนาดขอบปุ่ม */
+    text-align: center; /* จัดกึ่งกลาง */
+    display: inline-block; /* แสดงเป็นบล็อกอินไลน์ */
+    border-radius: 4px; /* ขอบมนเรียบ */
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ข้อความลิงก์ */
+    font-weight: bold; /* ตัวหนา */
+}
+
+/* สไตล์สำหรับเมนูแนวนอน */
+.menu {
+    display: flex; /* การจัดเรียงแนวนอน */
+    justify-content: space-between; /* การจัดกึ่งกลางทางแนวนอน */
+    align-items: center; /* การจัดกึ่งกลางทางแนวตั้ง */
+    background-color: #0077cc; /* สีพื้นหลัง */
+    padding: 16px; /* ระยะห่าง */
+    color: #fff; /* สีข้อความ */
+    font-weight: bold; /* ตัวหนา */
+}
+
+/* สไตล์สำหรับปุ่มในเมนู */
+.menu-button {
+    color: #fff; /* สีข้อความ */
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ข้อความลิงก์ */
+    margin-left: 20px; /* ระยะห่างด้านซ้ายของปุ่ม */
+}
+
+/* สไตล์สำหรับปุ่มในเมนู (hover) */
+.menu-button:hover {
+    text-decoration: underline; /* ขีดเส้นใต้ข้อความลิงก์เมื่อชี้ชิด */
+}
+/* ย่อขนาดหน้าเว็บ */
+body {
+    max-width: 1000px; /* กำหนดความกว้างสูงสุดของหน้าเว็บ */
+    margin: 0 auto; /* จัดกึ่งกลางในหน้าเว็บ */
+}
+
+/* ปรับตำแหน่ง Order ID ให้อยู่ตรงกลาง */
+h2 {
+    text-align: left;
+}
+
+/* ปรับระยะห่างระหว่าง Order ID */
+h2 {
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของ Order ID */
+}
+/* สีพื้นหลังของรายการที่ถูกเลือก */
+tr.selected {
+    background-color: #0077cc; /* สีพื้นหลังเมื่อเลือกรายการ */
+    color: #fff; /* สีข้อความเมื่อเลือกรายการ */
+}
+
+body {
+    background-image: url('/project/pictures/homepage/BG.avif'); /* ระบุพาธไปยังไฟล์รูปภาพของคุณ */
+    background-size: cover; /* ปรับขนาดรูปภาพให้ครอบทั้งพื้นที่ */
+    background-position: center center; /* ตำแหน่งของรูปภาพ */
+    
+  }
